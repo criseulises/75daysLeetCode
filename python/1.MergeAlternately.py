@@ -1,5 +1,4 @@
 def mergeAlternately(word1, word2):
-    
     charactersWord1 = list(word1)
     charactersWord2 = list(word2)
 
@@ -11,8 +10,6 @@ def mergeAlternately(word1, word2):
             merged += charactersWord1[i]
         if len(charactersWord2) > i:
             merged += charactersWord2[i]
-
-
 
     return merged
 
