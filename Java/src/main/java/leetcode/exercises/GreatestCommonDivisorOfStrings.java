@@ -11,6 +11,7 @@ public class GreatestCommonDivisorOfStrings {
             b = a % b;
             a = temp;
         }
+
         return (str1 + str2).equals(str2 + str1) ? str1.substring(0, a) : "";
     }
 }

@@ -5,12 +5,11 @@ import leetcode.exercises.GreatestCommonDivisorOfStrings;
 
 public class Main {
     public static void main(String[] args) {
-        // System.out.println(MergeAlternately.mergeAlternately("abc", "ZPE"));
-        // System.out.println(MergeAlternately.mergeAlternately("world", "HELLO"));
-        // System.out.println(MergeAlternately.mergeAlternately("number", "CORRIENDO"));
-        // System.out.println(MergeAlternately.mergeAlternately("coding", "EXACTLY"));
-        // System.out.println(MergeAlternately.mergeAlternately("working", "TREE"));
+        System.out.println("1. " + GreatestCommonDivisorOfStrings.exec("ABCABC", "ABC"));
+        System.out.println("2. " + GreatestCommonDivisorOfStrings.exec("ABABAB", "ABAB"));
+        System.out.println("3. " + GreatestCommonDivisorOfStrings.exec("XYZXYZXYZ", "XYZ"));
+        System.out.println("4. " + GreatestCommonDivisorOfStrings.exec("LEET", "CODE"));
+        System.out.println("5. " + GreatestCommonDivisorOfStrings.exec("ABCABCABC", "ABCAAA"));
 
-        System.out.println(GreatestCommonDivisorOfStrings.exec("ABCABC", "ABC"));
     }
 }

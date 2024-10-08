@@ -1,7 +1,4 @@
-def greatestCommonDivisorOfStrings():
-    str1 = "ABABAB"
-    str2 = "ABAB"
-
+def greatestCommonDivisorOfStrings(str1, str2):
     a = max(len(str1), len(str2))
     b = len(str2) if a != len(str2) else len(str1)
 
@@ -10,6 +7,11 @@ def greatestCommonDivisorOfStrings():
         b = a % b
         a = temp
 
-    return str1[:a] if str1 + str2 == str2 + str1 else ""  
+    return str1[:a] if str1 + str2 == str2 + str1 else ""
 
-print(greatestCommonDivisorOfStrings())
+
+print("1. " + greatestCommonDivisorOfStrings("ABCABC", "ABC"))
+print("2. " + greatestCommonDivisorOfStrings("ABABAB", "ABAB"))
+print("3. " + greatestCommonDivisorOfStrings("XYZXYZXYZ", "XYZ"))
+print("4. " + greatestCommonDivisorOfStrings("LEET", "CODE"))
+print("5. " + greatestCommonDivisorOfStrings("ABCABCABC", "ABCAAA"))
