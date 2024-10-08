@@ -7,12 +7,16 @@ string greatestCommonDivisorOfStrings(string str1, string str2) {
     short b = min(str1.length(), str2.length());
 
     short gcdResult = gcd(a, b);
-    
-    return str1 + str2 == str2 + str1 ? str1.substr(0, gcdResult) : "" ;
 
+    return str1 + str2 == str2 + str1 ? str1.substr(0, gcdResult) : "";
 }
 
 int main() {
-    cout << greatestCommonDivisorOfStrings("ABCABC", "ABC");
+    cout << ("1. " + greatestCommonDivisorOfStrings("ABCABC", "ABC")) << endl;
+    cout << ("2. " + greatestCommonDivisorOfStrings("ABABAB", "ABAB")) << endl;
+    cout << ("3. " + greatestCommonDivisorOfStrings("XYZXYZXYZ", "XYZ")) << endl;
+    cout << ("4. " + greatestCommonDivisorOfStrings("LEET", "CODE")) << endl;
+    cout << ("5. " + greatestCommonDivisorOfStrings("ABCABCABC", "ABCAAA")) << endl;
+
     return 0;
 }
