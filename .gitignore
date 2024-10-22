@@ -1,1 +1,55 @@
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor settings
 .vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore build directories and binary files
+build/
+dist/
+out/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore package management files
+node_modules/
+vendor/
+*.lock
+
+# Ignore log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+*.backup
+
+# Ignore Python virtual environments
+venv/
+.env/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Java and Maven specific files
+target/
+*.class
+
+# Ignore JavaScript and frontend framework specific files
+package-lock.json
+yarn.lock
+.pnpm-debug.log
