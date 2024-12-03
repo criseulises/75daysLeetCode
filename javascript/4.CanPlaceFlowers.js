@@ -9,7 +9,6 @@ function canPlaceFlowers(flowerbed, n) {
         }
     }
     return n <= 0
-
 }
 
 
