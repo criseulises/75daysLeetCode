@@ -20,6 +20,6 @@ bool canPlaceFlowers(std::vector<int> &flowerbed, int n)
 int main()
 {
     std::vector<int> flowerbed = {1, 0, 0, 0, 1};
-    std::cout << canPlaceFlowers(flowerbed, 2) << std::endl;
+    std::cout << "Result: " << canPlaceFlowers(flowerbed, 1) << std::endl;
     return 0;
 }
